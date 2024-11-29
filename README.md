@@ -11,9 +11,9 @@ Complete description of the dashboard and future conditions
 
 
 (2) Future Condition (Adding a New Condition)
-a) Define a new rule object and add it to the `checklistRules` array.
-b) Provide a descriptive `name` for the rule.
-c) Implement the `validate` function to check the condition.
+(a) Define a new rule object and add it to the `checklistRules` array.
+(b) Provide a descriptive `name` for the rule.
+(c) Implement the `validate` function to check the condition.
  - The function should take `data` as input and return `true` or 'false' based on API data then we will get status (Passed/Failed).
 * Example:
 {

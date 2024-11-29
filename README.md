@@ -20,3 +20,23 @@ Complete description of the dashboard and future conditions
  name: "isAccountVerified",
  validate: (data) => data?.accountStatus === "verified"
 }
+
+(3) Final Output will look like 
+[
+  {
+    "checkListName": "isValuationFeePaid",
+    "checklistRules": "passed"
+  },
+  {
+    "checkListName": "isUkResident",
+    "checklistRules": "passed"
+  },
+  {
+    "checkListName": "riskRating",
+    "checklistRules": "passed"
+  },
+  {
+    "checkListName": "Loan-to-Value",
+    "checklistRules": "passed"
+  }
+]

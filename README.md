@@ -1,6 +1,6 @@
-Complete description of the dashboard and future conditions
+# Complete description of the dashboard and future conditions
 
-(1) Working process of this entire backend dashboard
+# (1) Working process of this entire backend dashboard
 * First, we set up the Node.js project in the directory ~/transition-computing-backend-assignment by running npm init -y to generate a package.json file.
 * Second, we install the required packages such as cors (Cross Origin Resource Sharing used for controlling the sharing of resource of an API from different Domain like Port, Domain Name and etc), express (used for creating server-side functionality and API to control reauest, response and many more ), and axios (used to make HTTP requests).
 * Third, we initialize the server, which runs on port 3000.
@@ -10,7 +10,7 @@ Complete description of the dashboard and future conditions
 * Seventh, from the API response, we access the fields isValuationFeePaid, isUkResident, riskRating, loanRequired, and purchasePrice to evaluate them against the checklist rules.
 
 
-(2) Future Condition (Adding a New Condition)
+# (2) Future Condition (Adding a New Condition)
 (a) Define a new rule object and add it to the `checklistRules` array.
 (b) Provide a descriptive `name` for the rule.
 (c) Implement the `validate` function to check the condition.
@@ -21,7 +21,7 @@ Complete description of the dashboard and future conditions
  validate: (data) => data?.accountStatus === "verified"
 }
 
-(3) Final Output will look like 
+# (3) Final Output will look like 
 * dashboard :-
 [
   {
@@ -41,6 +41,6 @@ Complete description of the dashboard and future conditions
     "checklistRules": "passed"
   }
 
-(4) Deployed URL by using Render 
+# (4) Deployed URL by using Render 
 * Deployed Render URL ;-
 * https://transition-computing-backend-assignment-q78x.onrender.com/

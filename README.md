@@ -42,4 +42,5 @@ Complete description of the dashboard and future conditions
   }
 
 (4) Deployed URL by using Render 
-* Deployed Render URL ;- https://transition-computing-backend-assignment-q78x.onrender.com
+* Deployed Render URL ;-
+* https://transition-computing-backend-assignment-q78x.onrender.com/

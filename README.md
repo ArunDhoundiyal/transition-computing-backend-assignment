@@ -9,6 +9,7 @@ e) Fifth, we use an external API to retrieve data and create the checklist syste
 f) Sixth, we pass the fetched data from index.js to the checklist-rules.js module. The checklistRules function inside the module receives this data as an argument and performs the necessary operation.
 g) Seventh, from the API response, we access the fields isValuationFeePaid, isUkResident, riskRating, loanRequired, and purchasePrice to evaluate them against the checklist rules.
 
+
 (2) Future Condition (Adding a New Condition)
 a) Define a new rule object and add it to the `checklistRules` array.
 b) Provide a descriptive `name` for the rule.

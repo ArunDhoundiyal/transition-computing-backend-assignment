@@ -22,6 +22,7 @@ Complete description of the dashboard and future conditions
 }
 
 (3) Final Output will look like 
+*
 [
   {
     "checkListName": "isValuationFeePaid",

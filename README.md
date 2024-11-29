@@ -40,4 +40,6 @@ Complete description of the dashboard and future conditions
     "checkListName": "Loan-to-Value",
     "checklistRules": "passed"
   }
-]
+
+(4) Deployed URL by using Render 
+* Deployed Render URL ;- https://transition-computing-backend-assignment-q78x.onrender.com

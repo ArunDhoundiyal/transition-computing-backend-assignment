@@ -6,7 +6,7 @@ Complete description of the dashboard and future conditions
 * Third, we initialize the server, which runs on port 3000.
 * Fourth, we import the checklist-rules.js module into index.js. This file contains an array with two keys: name and checklistRules. The checklistRules function contains the logic to evaluate whether a condition is true or false, and it returns either 'passed' or 'failed' based on the API fetched Data result.
 * Fifth, we use an external API (External API url = "http://qa-gb.api.dynamatix.com:3100/api/applications/getApplicationById/67339ae56d5231c1a2c63639") to retrieve data and create the checklist system based on the fetched data.
-* Sixth, we pass the fetched data from index.js to the checklist-rules.js module. The checklistRules function inside the module receives this data as an argument and performs the necessary operation.
+* Sixth, we pass the fetched data from index.js to the checklist-rules.js module. The checklistRules function of the array inside the checklist-rules.js module receives this data as an argument and performs the necessary operation.
 * Seventh, from the API response, we access the fields isValuationFeePaid, isUkResident, riskRating, loanRequired, and purchasePrice to evaluate them against the checklist rules.
 
 
